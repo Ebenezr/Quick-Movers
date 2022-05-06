@@ -7,10 +7,14 @@
     font-family: 'Adamina', serif;
     font-family: 'Poppins', sans-serif; */
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 /* header section style */
 .header{
     background-image: url(/assets/images/moving\ 1.png);
-    height: 50vh;
+    height: 100vh;
     background-size: cover;
     padding: 70px;
 }
@@ -19,12 +23,15 @@
     font-family: 'Adamina', serif;
     font-weight: 200;
     color: #FAFF00;
-    font-size: 3rem;
+    font-size: 6rem;
+    margin-bottom: 0;
 }
 /* subtext */
 .header h3{
     font-family: 'Poppins', sans-serif;
-    color: gray;
+    color: rgb(155, 155, 155);
+    margin-top: 5rem;
+    font-size: 2rem;
 }
 /* navbar */
 nav{
@@ -68,14 +75,103 @@ nav .selected{
 }
 /* main text in header */
 .header-main-text{
-    width: 50%;
+    width: 70%;
+    
 }
 
+.header-sub-text{
+    width: 50%;
+    
+}
+/* first article style */
+.first-section{
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: relative;
+    margin: 2.5rem 0;
+}
 
+.first-section img{
+    float: left;
+    width: 50vw;
+    height: 90vh;
+    margin-right: 4rem;
+}
+.first-section-text{
+    position: relative;
+    transform: translateY(50%);
+    padding: 3rem;
+    width: 45vw;
+    float: right;
+   
 
+}
+.gradient{
+    margin: 0;
+    height: 0.3rem;
+    border-radius: 1rem;
+    width: 14rem;
+    background-image: linear-gradient(to right, brown , black);
+}
+.first-section h3{
+    margin: 0;
+    font-size: 4rem;
+    font-family: 'Adamina', serif;
+    font-weight: 300;
+    color: black;
+}
+.first-section p{
+    font-size: 2rem;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
 
+.first-section button{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2px 12px 2px 2px;
+    padding: .9rem 1.2rem;
+}
 
+/* second section */
+.second-section{
+    background-color: #9a9a9ac4;
+    height:650px;
+}
+.parent-cards{
+    
+    height: 500px;
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-template-rows: 260px 260px;
+    
+    margin:5rem  15rem 0 14rem;
+    justify-content: center;
+    align-content: center;
 
+    gap: 35px;
+    grid-auto-flow: row;
+    padding: 0px ;
+}
+.cards{
+    background-color: aliceblue;
+
+    
+}
+/* .cards img{
+    width: 50%;
+
+} */
+
+/* footer sectio */
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    height: 25vh;
+}
 
 
 
