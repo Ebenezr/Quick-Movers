@@ -37,23 +37,12 @@ I also used an external css to enable me to use fa icons
 css link https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 *** 
 ## How to set up and run the project
-<<<<<<< HEAD
+
 #### method one
 clone the repo using the command
 - $git clone https://github.com/Ebenezr/Quick-Movers.git
 change directory using command
 - $cd landing-page
-
-#### method two
- - run the following live link in your browser 
-
-#### clone repo 
-* clone the repo using the command: git clone
-https://github.com/Ebenezr/landing-page.git
-* unzip the folder
-* run index.html on your browser 
-
-
 #### live link
    - click the following link to view the application
  https://ebenezr.github.io/Quick-Movers/
