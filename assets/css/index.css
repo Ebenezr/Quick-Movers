@@ -167,19 +167,47 @@ nav .selected{
 }
 
 .cards{
+    bottom: 0;
     background-color: rgba(240, 248, 255, 0.19);
     background-image: url(/assets/images/mashinani\ 1.png);
     background-size:contain;
     background-repeat: no-repeat;
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 2rem;
     
 }
 .status {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-.status div{
-    border: 2px black solid;
+    grid-template-rows: 5rem;
+    justify-content: center;
+    align-content: center;
+    gap: 0px;
 
+    grid-auto-flow: row;
+}
+/* cards status pane */
+.status div{
+    border: 2px rgba(135, 135, 135, 0.648) solid;
+    color: black;
+    text-align: center;
+  
+   
+
+}
+/* cards main text */
+.cards h2{
+     margin: 0 1rem;
+    font-size: 2rem;
+    font-family: 'Adamina', serif;
+    font-weight: 300;
+    color: black;
+    position: absolute;
+    bottom: 20%;
 }
 
 
