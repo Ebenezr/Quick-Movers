@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     color: white;
+    font-family: 'Adamina', serif;
     /* font-family: 'Actor', sans-serif;
     font-family: 'Adamina', serif;
     font-family: 'Poppins', sans-serif; */
@@ -156,7 +157,7 @@ nav .selected{
     height: 140vh;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: rgba(157, 162, 162, 0.254);
+    
     
     justify-content: center;
     align-content: center;
@@ -192,12 +193,18 @@ nav .selected{
 }
 /* cards status pane */
 .status div{
-    border: 2px rgba(135, 135, 135, 0.648) solid;
+    border-top: 2px rgba(135, 135, 135, 0.648) solid;
     color: black;
     text-align: center;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 
+}
+div .center-div{
+    border-left: 2px rgba(135, 135, 135, 0.648) solid;
+    border-right: 2px rgba(135, 135, 135, 0.648) solid;
 }
 /* cards main text */
 .cards h2{
