@@ -1,0 +1,72 @@
+/*imports fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    color: white;
+    /* font-family: 'Actor', sans-serif;
+    font-family: 'Adamina', serif;
+    font-family: 'Poppins', sans-serif; */
+}
+/* header section style */
+.header{
+    background-image: url(/assets/images/moving\ 1.png);
+    height: 50vh;
+    background-size: cover;
+    padding: 70px;
+}
+/* main text */
+.header  h1{
+    font-family: 'Adamina', serif;
+    font-weight: 200;
+    color: #FAFF00;
+    font-size: 3rem;
+}
+/* subtext */
+.header h3{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+/* navbar */
+nav{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: antiquewhite; */
+    width: 80%; 
+    margin: 0 auto;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+}
+/* nav links */
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px 7px;
+    font-family: 'Adamina', serif;
+    margin: 0 15px;
+    border-radius: 3px;
+
+}
+/* active link */
+nav .active {
+    background-color: #FAFF00;
+    color: black;
+
+
+}
+/* selected link */
+nav .selected{
+    background-color: black;
+    color: #FAFF00;
+}
+/* main text in header */
+.header-main-text{
+    width: 50%;
+}
+@media only screen and (max-width=1312px){
+    
+}
