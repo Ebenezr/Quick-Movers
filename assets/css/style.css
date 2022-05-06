@@ -17,7 +17,7 @@ body{
 }
 /* header section style */
 .header{
-    background-image: url(assets/images/moving\ 1.png);
+    background-image: url("../images/moving.png");
     height: 100vh;
     background-size: cover;
     padding: 70px;
@@ -186,20 +186,20 @@ nav .selected{
     background-image: url("../images/ehem.png") !important;
 }
 #maridadi{
-    background-image: url('../images/wewe.png') !important;
+    background-image: url("../images/wewe.png") !important;
 }
 #ufalme{
-    background-image: url('../images/movers.png') !important;
+    background-image: url("../images/movers.png") !important;
 }
 #chapchap{
-    background-image: url('../images/chapchap.png') !important;
+    background-image: url("../images/chapchap.png") !important;
 }
 
 #upesi{
     background-image: url("../images/songa.png") !important;
 }
 #mashinani{
-    background-image: url('../images/mashinani.png') !important;
+    background-image: url("../images/mashinani.png") !important;
 }
 
 .status {
