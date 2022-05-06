@@ -226,6 +226,12 @@ footer{
     height: 25vh;
 }
 
+/* icons styling*/
+i{
+    margin-right: 0.7rem;
+    font-size: 15px !important;
+    color: rgb(0, 0, 0);
+}
 
 
 
