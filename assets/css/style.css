@@ -173,7 +173,7 @@ nav .selected{
 .cards {
     bottom: 0;
     background-color: rgba(240, 248, 255, 0.19);
-    background-image: url(/assets/images/mashinani\ 1.png);
+    background-image: url(../assets/images/mashinani\ 1.png);
     background-size:contain;
     background-repeat: no-repeat;
     position: relative;
@@ -183,23 +183,23 @@ nav .selected{
 }
 /* used important to overide the placeholder background images with the correct images */
 #movers{
-    background-image: url(/assets/images/ehem\ 1.png) !important;
+    background-image: url(../assets/images/ehem\ 1.png) !important;
 }
 #maridadi{
-    background-image: url(/assets/images/wewe\ 1.png) !important;
+    background-image: url(../assets/images/wewe\ 1.png) !important;
 }
 #ufalme{
-    background-image: url(/assets/images/movers\ 1.png) !important;
+    background-image: url(../assets/images/movers\ 1.png) !important;
 }
 #chapchap{
-    background-image: url(/assets/images/chapchap\ 1.png) !important;
+    background-image: url(../assets/images/chapchap\ 1.png) !important;
 }
 
 #upesi{
-    background-image: url(/assets/images/songa\ 1.png) !important;
+    background-image: url(../assets/images/songa\ 1.png) !important;
 }
 #mashinani{
-    background-image: url(/assets/images/mashinani\ 1.png) !important;
+    background-image: url(../assets/images/mashinani\ 1.png) !important;
 }
 
 .status {
