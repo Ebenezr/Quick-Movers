@@ -135,35 +135,53 @@ nav .selected{
     padding: .9rem 1.2rem;
 }
 
-/* second section */
+/* second section parent class*/
 .second-section{
-    background-color: #9a9a9ac4;
-    height:650px;
+    background-color: #aeaeae91;
+    height: 200vh;
+    margin-top: 2rem;
+    padding: 8rem 8rem;
 }
+.second-section h3{
+    margin: 0;
+    font-size: 4rem;
+    font-family: 'Adamina', serif;
+    font-weight: 300;
+    color: black;
+}
+/* second section sub-parent class */
 .parent-cards{
-    
-    height: 500px;
     display: grid;
-    grid-template-columns: 230px 230px 230px;
-    grid-template-rows: 260px 260px;
+    margin-top: 13rem;
+    height: 140vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(157, 162, 162, 0.254);
     
-    margin:5rem  15rem 0 14rem;
     justify-content: center;
     align-content: center;
 
-    gap: 35px;
+    gap: 25px;
     grid-auto-flow: row;
     padding: 0px ;
 }
-.cards{
-    background-color: aliceblue;
 
+.cards{
+    background-color: rgba(240, 248, 255, 0.19);
+    background-image: url(/assets/images/mashinani\ 1.png);
+    background-size:contain;
+    background-repeat: no-repeat;
     
 }
-/* .cards img{
-    width: 50%;
+.status {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.status div{
+    border: 2px black solid;
 
-} */
+}
+
 
 /* footer sectio */
 footer{
