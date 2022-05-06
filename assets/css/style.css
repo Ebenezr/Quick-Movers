@@ -173,7 +173,7 @@ nav .selected{
 .cards {
     bottom: 0;
     background-color: rgba(240, 248, 255, 0.19);
-    background-image: url("/images/moving.png");
+    background-image: url("../images/moving.png");
     background-size:contain;
     background-repeat: no-repeat;
     position: relative;
@@ -186,17 +186,17 @@ nav .selected{
     background-image: url("../images/ehem.png") !important;
 }
 #maridadi{
-    background-image: url('images/wewe.png') !important;
+    background-image: url('../images/wewe.png') !important;
 }
 #ufalme{
     background-image: url('../images/movers.png') !important;
 }
 #chapchap{
-    background-image: url('./images/chapchap.png') !important;
+    background-image: url('../images/chapchap.png') !important;
 }
 
 #upesi{
-    background-image: url("images/songa.png") !important;
+    background-image: url("../images/songa.png") !important;
 }
 #mashinani{
     background-image: url('../images/mashinani.png') !important;
