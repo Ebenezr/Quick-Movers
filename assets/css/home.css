@@ -11,6 +11,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(234, 234, 234);
 }
 .container{
     position: relative;
@@ -102,14 +103,21 @@ nav .selected{
     grid-gap:0.7rem;
     ;
 } */
+.first-article{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+}
+/* images gallery section begin*/ 
 .gallery { 
+  
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));;
   grid-gap: 10px;
   align-items: start;
   justify-items: center;
-  margin: auto;
   width: 660px;
+  margin-right: 3rem;
   }
 .gallery img {
  
@@ -118,6 +126,42 @@ nav .selected{
 .gallery img:nth-child(1) {
   grid-column: span 6;
   }
+  /* images gallery section begin*/ 
+
+.form{
+    float: right;
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: auto;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: #FAFF00;
+}
+.logo{
+    /* background-color: #FAFF00; */
+    height: 4.5rem;
+
+}
+.logo img{
+    float: left;
+    margin-right: 1rem;
+    border-radius: 50%;
+    height: 100%;
+}
+.input-field{
+    width: 100%;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+}
+.form button{
+    border: none;
+    background-color: #FAFF00;
+    color: rgb(0, 0, 0);
+    border-radius: 2px 12px 2px 2px;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
 
 /* footer section begin */
 footer{
