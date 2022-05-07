@@ -39,6 +39,8 @@ I used html in creating the page structure and css in styling the document.
 I also used an external css to enable me to use fa icons
 css link https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 *** 
+### challenges 
+The major challenge I faces was makes the web pages responsive. 
 ## How to set up and run the project
 
 #### method one
