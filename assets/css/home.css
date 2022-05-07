@@ -138,8 +138,9 @@ nav .selected{
     box-shadow: #FAFF00;
 }
 .logo{
-    /* background-color: #FAFF00; */
+    background-color: #dfdfdf98;
     height: 4.5rem;
+    border-radius: .7rem;
 
 }
 .logo img{
@@ -148,19 +149,87 @@ nav .selected{
     border-radius: 50%;
     height: 100%;
 }
+.logo a{
+    text-decoration: none;
+    font-family: ;
+    color: gray;
+}
+.logo a:hover{
+    color:black;
+    transform: scale(1.1);
+}
 .input-field{
     width: 100%;
     padding: 1rem 1rem;
     margin-top: 1rem;
+    border-radius: .7rem;
+    border: 0.05rem solid rgba(128, 128, 128, 0.745);
 }
 .form button{
     border: none;
-    background-color: #FAFF00;
-    color: rgb(0, 0, 0);
+    width: 100%;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     border-radius: 2px 12px 2px 2px;
     padding: 1rem 2rem;
     margin-top: 1rem;
 }
+.form button:hover{
+    background-color: #393939;
+    color: rgb(255, 255, 255);
+}
+/*form learn more button icon*/
+.form i{
+    color: #FAFF00;
+    
+}
+
+/* Details section style */
+.details{
+    position: relative;
+    margin-left: 5rem;
+    height: 15vh;
+    padding-top: .004rem;
+     width: 35%;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+.details h2{
+    margin-left: 1rem;
+}
+.status {
+   
+    position: absolute;
+    bottom: 0;
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5rem;
+    justify-content: center;
+    align-content: center;
+    gap: 0px;
+
+    grid-auto-flow: row;
+}
+/* cards status pane */
+.status div{
+    border-top: 2px rgba(135, 135, 135, 0.648) solid;
+    color: black;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+   
+
+}
+div .center-div{
+    border-left: 2px rgba(135, 135, 135, 0.648) solid;
+    border-right: 2px rgba(135, 135, 135, 0.648) solid;
+}
+
 
 
 /* feature section */
