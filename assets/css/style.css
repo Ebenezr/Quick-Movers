@@ -1,6 +1,6 @@
 /*imports fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Actor &family=Adamina&family=Poppins&display=swap');
+* {
     box-sizing: border-box;
     color: white;
     font-family: 'Adamina', serif;
@@ -8,55 +8,55 @@
     font-family: 'Adamina', serif;
     font-family: 'Poppins', sans-serif; */
 }
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.container{
+.container {
     position: relative;
 }
 /* header section style */
-.header{
+.header {
     background-image: url("../images/moving.png");
     height: 100vh;
     background-size: cover;
     padding: 70px;
 }
 /* main text */
-.header  h1{
+.header h1 {
     font-family: 'Adamina', serif;
     font-weight: 200;
-    color: #FAFF00;
+    color: #FFAC12;
     font-size: 5.5rem;
     margin-bottom: 0;
 }
 /* subtext */
-.header h3{
+.header h3 {
     font-family: 'Poppins', sans-serif;
     color: rgb(155, 155, 155);
     margin-top: 5rem;
     font-size: 2rem;
 }
 /* navbar */
-nav{
+nav {
     /* background-color: bisque; */
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: flex-end;
-    
+
     /* background-color: antiquewhite; */
-    width: 80%; 
+    width: 80%;
     margin: 0 auto;
     transition-duration: 2s;
 }
-ul{
+ul {
     list-style: none;
 }
-nav li{
+nav li {
     display: inline;
 }
 /* nav links */
-nav li a{
+nav li a {
     display: inline-block;
     text-decoration: none;
     padding: 3px 7px;
@@ -67,28 +67,28 @@ nav li a{
 }
 /* active link */
 nav .active {
-    background-color: #FAFF00;
+    background-color: #FFAC12;
     color: black;
 
 
 }
 /* selected link */
-nav .selected{
+nav .selected {
     background-color: black;
-    color: #FAFF00;
+    color: #FFAC12;
 }
 /* main text in header */
-.header-main-text{
+.header-main-text {
     width: 70%;
-    
+
 }
 
-.header-sub-text{
+.header-sub-text {
     width: 50%;
-    
+
 }
 /* first article style */
-.first-section{
+.first-section {
     height: 90vh;
     background-color: rgb(255, 255, 255);
     color: black;
@@ -96,57 +96,57 @@ nav .selected{
     margin: 2.5rem 0;
 }
 
-.first-section img{
+.first-section img {
     float: left;
     width: 50vw;
     height: 90vh;
     margin-right: 4rem;
 }
-.first-section-text{
+.first-section-text {
     position: relative;
     transform: translateY(50%);
     padding: 3rem;
     width: 45vw;
     float: right;
-   
+
 
 }
-.gradient{
+.gradient {
     margin: 0;
     height: 0.3rem;
     border-radius: 1rem;
     width: 14rem;
     background-image: linear-gradient(to right, brown , black);
 }
-.first-section h3{
+.first-section h3 {
     margin: 0;
     font-size: 4rem;
     font-family: 'Adamina', serif;
     font-weight: 300;
     color: black;
 }
-.first-section p{
+.first-section p {
     font-size: 2rem;
     color: gray;
     font-family: 'Poppins', sans-serif;
 }
 
-.first-section button{
+.first-section button {
     border: none;
     background-color: black;
     color: white;
     border-radius: 2px 12px 2px 2px;
-    padding: .9rem 1.2rem;
+    padding: 0.9rem 1.2rem;
 }
 
 /* second section parent class*/
-.second-section{
+.second-section {
     background-color: #aeaeae91;
     height: 200vh;
     margin-top: 2rem;
-    padding: 8rem 8rem;
+    padding: 8rem;
 }
-.second-section h3{
+.second-section h3 {
     margin: 0;
     font-size: 4rem;
     font-family: 'Adamina', serif;
@@ -154,51 +154,51 @@ nav .selected{
     color: black;
 }
 /* second section sub-parent class */
-.parent-cards{
+.parent-cards {
     display: grid;
     margin-top: 13rem;
     height: 140vh;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    
-    
+
+
     justify-content: center;
     align-content: center;
 
     gap: 25px;
     grid-auto-flow: row;
-    padding: 0px ;
+    padding: 0;
 }
 
 .cards {
     bottom: 0;
     background-color: rgba(240, 248, 255, 0.19);
     background-image: url("../images/moving.png");
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     background-color: aliceblue;
     border-radius: 2rem;
-    
+
 }
 /* used important to overide the placeholder background images with the correct images */
-#movers{
+#movers {
     background-image: url("../images/ehem.png") !important;
 }
-#maridadi{
+#maridadi {
     background-image: url("../images/wewe.png") !important;
 }
-#ufalme{
+#ufalme {
     background-image: url("../images/movers.png") !important;
 }
-#chapchap{
+#chapchap {
     background-image: url("../images/chapchap.png") !important;
 }
 
-#upesi{
+#upesi {
     background-image: url("../images/songa.png") !important;
 }
-#mashinani{
+#mashinani {
     background-image: url("../images/mashinani.png") !important;
 }
 
@@ -211,28 +211,28 @@ nav .selected{
     grid-template-rows: 5rem;
     justify-content: center;
     align-content: center;
-    gap: 0px;
+    gap: 0;
 
     grid-auto-flow: row;
 }
 /* cards status pane */
-.status div{
+.status div {
     border-top: 2px rgba(135, 135, 135, 0.648) solid;
     color: black;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 
 }
-div .center-div{
+div .center-div {
     border-left: 2px rgba(135, 135, 135, 0.648) solid;
     border-right: 2px rgba(135, 135, 135, 0.648) solid;
 }
 /* cards main text */
-.cards h2{
-     margin: 0 1rem;
+.cards h2 {
+    margin: 0 1rem;
     font-size: 2rem;
     font-family: 'Adamina', serif;
     font-weight: 300;
@@ -243,7 +243,7 @@ div .center-div{
 
 
 /* footer section begin */
-footer{
+footer {
     background-color: rgb(0, 0, 0);
     color: white;
     width: 100%;
@@ -251,9 +251,9 @@ footer{
     padding-top: 6.5rem;
     padding-left: 6.5rem;
     padding-right: 6.5rem;
-    
+
 }
-.footer-subcontainer{
+.footer-subcontainer {
     width: 100%;
     border-top: 0.1rem grey solid;
     display: grid;
@@ -261,18 +261,17 @@ footer{
     gap: 3rem;
     margin-top: 9rem;
 }
-.footer-social-icons{
-    
+.footer-social-icons {
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-content: center;
     gap: 1rem;
 
 
-
 }
-.parent-column{
+.parent-column {
     flex-grow: 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -281,110 +280,92 @@ footer{
     gap: 25px;
     grid-auto-flow: row;
 }
-.parent-column div{
+.parent-column div {
     text-align: left;
 }
-.footer-subcontainer h2{
-    
+.footer-subcontainer h2 {}
+.orange-text {
+    color: #FFAC12;
 }
-.orange-text{
-    color: #FAFF00;
-}
-footer li{
+footer li {
     margin-top: 1rem;
 }
-footer li a{
+footer li a {
     display: block;
     color: rgb(221, 220, 220);
-    
-    
+
+
 }
-footer li a:hover{
+footer li a:hover {
     color: white;
     transform: scale(1.2);
 }
 
 
-
 /* icons styling*/
-i{
+i {
     margin-right: 0.7rem;
     font-size: 15px !important;
     color: rgb(0, 0, 0);
 }
 
 /* footer social media icons styling*/
-footer i{
+footer i {
     margin: 0 2rem;
     font-size: 45px !important;
     color: rgb(255, 255, 255);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media query of small screen */
-@media only screen and (max-width:1312px){
+@media only screen and(max-width:1312px) {
     /* header section style */
-.header{
- 
-    height: 50vh;
-    padding:12px;
-}
-nav{ 
-    /* background-color: antiquewhite;  */
- 
-    width: 100%;
-    transition-duration: 1s;
-   
-    
+    .header {
 
-}
+        height: 50vh;
+        padding: 12px;
+    }
+    nav {
+        /* background-color: antiquewhite;  */
 
-/* nav links */
-nav a{
+        width: 100%;
+        transition-duration: 1s;
 
-    display: inline-block;
-    width: 90%;
-    text-align: left;
-    margin:0 ;
-    padding: 0;
-    
-    
-}
-/* main text in header */
-.header-main-text{
-    width: 100%;
-}
 
-/* main text */
-.header  h1{
-    font-family: 'Adamina', serif;
-    font-weight: 200;
-    color: #FAFF00;
-    font-size: 80%;
-    transition-duration: 1s;
-    text-align: center;
-}
-/* subtext */
-.header h3{
-    font-family: 'Poppins', sans-serif;
-    color: gray;
-    font-size: 70%;
-    transition-duration: 1s;
-    text-align: center;
+    }
 
-}
+    /* nav links */
+    nav a {
+
+        display: inline-block;
+        width: 90%;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+
+
+    }
+    /* main text in header */
+    .header-main-text {
+        width: 100%;
+    }
+
+    /* main text */
+    .header h1 {
+        font-family: 'Adamina', serif;
+        font-weight: 200;
+        color: #FFAC12;
+        font-size: 80%;
+        transition-duration: 1s;
+        text-align: center;
+    }
+    /* subtext */
+    .header h3 {
+        font-family: 'Poppins', sans-serif;
+        color: gray;
+        font-size: 70%;
+        transition-duration: 1s;
+        text-align: center;
+
+    }
 }
