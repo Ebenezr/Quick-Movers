@@ -188,7 +188,7 @@ nav .selected{
 .details{
     position: relative;
     margin-left: 5rem;
-    height: 15vh;
+    height: 18vh;
     padding-top: .004rem;
      width: 35%;
     background-color: #ffffff;
@@ -230,15 +230,59 @@ div .center-div{
     border-right: 2px rgba(135, 135, 135, 0.648) solid;
 }
 
+/* description pane begin */
+.description{
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    height: 38vh;
+    padding-top: .004rem;
+    width: 35%;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+.description-text{
+    border-top: 0.05rem solid grey;
+}
+.description h2{
+    margin-left: 1rem;
+}
+.description p{
+    margin: 2rem;
+}
+
 
 
 /* feature section */
+.features{
+
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    height: 20vh;
+    padding-top: .004rem;
+     width: 35%;
+    background-color: #ffffff;
+    border-radius: 1rem;
+
+
+}
+.features h2{
+    margin-left: 1rem;
+}
 .feature-list{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 1rem;
     border-top:0.05rem grey solid ;
-
+    height: 60%;
+    justify-content: space-around;
+}
+.feature-list li{
+    margin: 2rem;
+}
+.feature-list li i{
+    margin: 2rem;
 }
 
 /* footer section begin */
@@ -306,8 +350,20 @@ footer li a:hover{
     color: white;
     transform: scale(1.2);
 }
-
-
+ footer button{
+    border: none;
+    background-color:#FAFF00;
+    color: rgb(0, 0, 0);
+    border-radius: 2px 12px 2px 2px;
+    padding: .7rem 2.5rem;
+   
+ }
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
 /* icons styling*/
 i{
