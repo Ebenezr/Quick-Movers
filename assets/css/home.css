@@ -80,6 +80,8 @@ nav .selected {
 }
 nav a:hover {
     transform: scale(1.2);
+    padding: 1rem 2rem;
+
     background-color: #b2b2b1;
 }
 nav .selected:hover {
@@ -151,12 +153,14 @@ nav .selected:hover {
     height: auto;
     border-radius: 2rem;
     padding: 1rem;
-    box-shadow: #FFAC12;
+    height: 44rem;
+    box-shadow: 1.5rem 0 2rem 0.3rem #888888b9
 }
 .logo {
     background-color: #dfdfdf98;
-    height: 4.5rem;
+    height: 6rem;
     border-radius: 0.7rem;
+    padding: 0.2rem;
 
 }
 .logo img {
@@ -167,7 +171,7 @@ nav .selected:hover {
 }
 .logo a {
     text-decoration: none;
-    color: gray;
+    color: #FFAC12;
 }
 .logo a:hover {
     color: black;
@@ -175,7 +179,7 @@ nav .selected:hover {
 }
 .input-field {
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     margin-top: 1rem;
     border-radius: 0.7rem;
     border: 0.05rem solid rgba(128, 128, 128, 0.745);
@@ -186,8 +190,9 @@ nav .selected:hover {
     background-color: #000000;
     color: rgb(255, 255, 255);
     border-radius: 2px 12px 2px 2px;
-    padding: 1rem 2rem;
+    padding: 2rem;
     margin-top: 1rem;
+
 }
 .form button:hover {
     background-color: #393939;
@@ -203,7 +208,7 @@ nav .selected:hover {
 .details {
     position: relative;
     margin-left: 6rem;
-    height: 18vh;
+    height: 15vh;
     padding-top: 0.004rem;
     width: 50vw;
     background-color: #ffffff;
@@ -216,7 +221,7 @@ nav .selected:hover {
 
     position: absolute;
     bottom: 0;
-
+    height: 3rem;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -231,7 +236,7 @@ nav .selected:hover {
 .status div {
     border-top: 2px rgba(135, 135, 135, 0.648) solid;
     color: black;
-
+    height: 2.5rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -306,7 +311,7 @@ div .center-div {
     padding-left: 6rem;
     margin-top: 7rem;
     height: 60vh;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 /*card section*/
