@@ -5,39 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="../css/home.css" />
+    <!-- external css file to enable use of icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Property page</title>
 </head>
 
 <body>
     <!--main container-->
     <div class="container">
-        <!--start header-->
-        <header>
-            <!--nav bar-->
-            <nav>
-                <ul>
-                    <!--nav bar links-->
-                    <li><a href="#">Nav Link</a></li>
-                    <li><a href="#">Nav Link</a></li>
-                    <li><a href="#">Nav Link</a></li>
-                    <li><a href="#">Nav Link</a></li>
-                    <li><a href="#" class="active">Work with us</a></li>
-                </ul>
-
-            </nav>
-            <hr>
-            <!--main heading text-->
+      <!--start header-->
+      <header class="header">
+        <!--nav bar-->
+        <nav>
+          <ul>
+            <!--nav bar links-->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Movers</a></li>
+            <li><a href="#">Contact US</a></li>
+            <li><a href="#" class="active">Log In</a></li>
+            <li><a href="#" class="selected">Work with us</a></li>
+          </ul>
+           </nav>
+        <!-- </nav>heading text section -->
+       <div class="header-text">
+     <!--main heading text-->
             <div class="header-main-text">
                 <h1>Modern House</h1>
-                <span>3002 Foster Ave,Brooklyn, NY 11210, USA</span>
+                <h3>3002 Foster Ave,Brooklyn, NY 11210, USA</h3>
             </div>
             <!--price-->
             <div class="price-main-text">
                 <h1>$450,000</h1>
-                <span>$2,800/sq ft</span>
+                <h3>$2,800/sq ft</h3>
             </div>
+       </div>
         </header>
         <!--end of page header-->
+      </header>
+      <!--end of page header-->
+
+   
 
         <!--Details pane start-->
         <div class="details-pane">
@@ -141,19 +153,56 @@
 
 
 
-            <!--page footer begin-->
-            <footer>
-                <!--main footer title text-->
-                <div class="footer-text">
-                    <h2>Make your dreams a <span class="orange-text">reality</span></h2>
-                    <button>Work with us</button>
-                </div>
-                <!--social icons-->
-                <div class="footer-social-icons"></div>
-                <!--footer columns text-->
-                <div class="parent-column"></div>
-            </footer>
-            <!--end of footer-->
+           <!--page footer begin-->
+      <footer>
+        <!--main footer title text-->
+        <h2>Make your dream <span class="orange-text">a reality</span></h2>
+        <button>Work with us</button>
+        <!-- parent container -->
+        <div class="footer-subcontainer">
+          <!--social icons-->
+          <div class="footer-social-icons">
+            <div><i class="fa fa-facebook"></i></div>
+            <div><i class="fa fa-twitter"></i></div>
+            <div><i class="fa fa-instagram"></i></div>
+          </div>
+          <!--footer columns text-->
+          <div class="parent-column">
+            <!-- quick links section -->
+            <div>
+              <h2>Quick Links</h2>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Movers</a></li>
+                <li><a>Contact Us</a></li>
+                
+              </ul>
+            </div>
+            <!-- company services section -->
+            <div>
+              <h2>Our Movers</h2>
+              <ul>
+                <li><a>A+ Movers</a></li>
+                <li><a>Maridadi Home</a></li>
+                <li><a>Movers ChapChap</a></li>
+                <li><a>Songa Mashinani</a></li>
+              </ul>
+            </div>
+            <!-- company's servises links -->
+            <div>
+              <h2>Our Services</h2>
+              <ul>
+                <li><a>Moving services</a></li>
+                <li><a>House Listing</a></li>
+                <li><a>Decore</a></li>
+                <li><a>Counsultation</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--end of footer-->
 </body>
 
 </html>
