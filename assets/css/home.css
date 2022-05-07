@@ -87,9 +87,59 @@ nav .selected{
     font-size: 1.1rem;
 
 }
-
-
-
+/* images section */
+.details-pane{
+    width: 45vw;
+    height: 45vh;
+    display: grid;
+    grid-template-columns: repeat(7 1fr);
+    grid-template-rows: 6fr 1fr;
+    grid-template-areas: 
+    "main-image main-image main-image main-image main-image main-image main-image"
+    "one two three four five six seven";
+    grid-gap:0.7rem;
+    ;
+}
+.main-image{
+    grid-area: main-image;
+    background-image: url("/assets/images/PropertyHouse.png");
+    background-size: cover;
+}
+.one{
+    grid-area: one;
+    background-image: url(/assets/images/Rectangle-1.png);
+    background-size: cover;
+}
+.two{
+    grid-area: two;
+    background-image: url(/assets/images/Rectangle-1.png);
+    background-size: cover;
+}
+.three{
+    grid-area: three;
+    background-image: url(/assets/images/Rectangle-1.png);
+    background-size: cover;
+}
+.four{
+    grid-area: four;
+    background-image: url(/assets/images/Rectangle-1.png);
+    background-size: cover;
+}
+.five{
+    grid-area: five;
+    background-image: url(/assets/images/Rectangle-1.png);
+    background-size: cover;
+}
+.six{
+    grid-area: six;
+    background-image: url(/assets/images/Rectangle-1.png);
+    background-size: cover;
+}
+.seven{
+    grid-area: seven;
+    background-image: url(/assets/images/Rectangle-1.png);
+    background-size: cover;
+}
 
 /* footer section begin */
 footer{
