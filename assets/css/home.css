@@ -163,6 +163,15 @@ nav .selected{
 }
 
 
+/* feature section */
+.feature-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1rem;
+    border-top:0.05rem grey solid ;
+
+}
+
 /* footer section begin */
 footer{
     background-color: rgb(0, 0, 0);
