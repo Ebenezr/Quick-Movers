@@ -87,59 +87,37 @@ nav .selected{
     font-size: 1.1rem;
 
 }
-/* images section */
+/* images section
 .details-pane{
     width: 45vw;
-    height: 45vh;
+    height: 50vh;
+    margin-left: 6rem;
+    margin-top: 6rem;
     display: grid;
-    grid-template-columns: repeat(7 1fr);
-    grid-template-rows: 6fr 1fr;
+    grid-template-columns: repeat(7 100px);
+    grid-template-rows: 40rem 8rem;
     grid-template-areas: 
     "main-image main-image main-image main-image main-image main-image main-image"
     "one two three four five six seven";
     grid-gap:0.7rem;
     ;
+} */
+.gallery { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));;
+  grid-gap: 10px;
+  align-items: start;
+  justify-items: center;
+  margin: auto;
+  width: 660px;
+  }
+.gallery img {
+ 
+  max-width: 100%;
 }
-.main-image{
-    grid-area: main-image;
-    background-image: url("/assets/images/PropertyHouse.png");
-    background-size: cover;
-}
-.one{
-    grid-area: one;
-    background-image: url(/assets/images/Rectangle-1.png);
-    background-size: cover;
-}
-.two{
-    grid-area: two;
-    background-image: url(/assets/images/Rectangle-1.png);
-    background-size: cover;
-}
-.three{
-    grid-area: three;
-    background-image: url(/assets/images/Rectangle-1.png);
-    background-size: cover;
-}
-.four{
-    grid-area: four;
-    background-image: url(/assets/images/Rectangle-1.png);
-    background-size: cover;
-}
-.five{
-    grid-area: five;
-    background-image: url(/assets/images/Rectangle-1.png);
-    background-size: cover;
-}
-.six{
-    grid-area: six;
-    background-image: url(/assets/images/Rectangle-1.png);
-    background-size: cover;
-}
-.seven{
-    grid-area: seven;
-    background-image: url(/assets/images/Rectangle-1.png);
-    background-size: cover;
-}
+.gallery img:nth-child(1) {
+  grid-column: span 6;
+  }
 
 /* footer section begin */
 footer{
