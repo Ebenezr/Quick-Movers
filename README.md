@@ -8,7 +8,10 @@ This is an implementation of Quick movers website designed with html and vanilla
 ***
 
 ## Screenshot
+### home page
 ![image](/assets/images/FireShot%20Capture.png)
+### property page
+![image](/assets/images/FireShot%20Capture%20019%20-%20Property%20page%20-%20127.0.0.1.png)
 
 ## Table of content
 - [Technologies]
