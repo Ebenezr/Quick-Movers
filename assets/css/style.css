@@ -354,56 +354,56 @@ footer li a:hover {
     color: #FFAC12;
     transform: scale(1.2);
 
+}
+/* media query of small screen */
+@media only screen and(max-width:1312px) {
+    /* header section style */
+    .header {
 
-    /* media query of small screen */
-    @media only screen and(max-width:1312px) {
-        /* header section style */
-        .header {
-
-            height: 50vh;
-            padding: 12px;
-        }
-        nav {
-            /* background-color: antiquewhite;  */
-
-            width: 100%;
-            transition-duration: 1s;
-
-
-        }
-
-        /* nav links */
-        nav a {
-
-            display: inline-block;
-            width: 90%;
-            text-align: left;
-            margin: 0;
-            padding: 0;
-
-
-        }
-        /* main text in header */
-        .header-main-text {
-            width: 100%;
-        }
-
-        /* main text */
-        .header h1 {
-            font-family: 'Adamina', serif;
-            font-weight: 200;
-            color: #FFAC12;
-            font-size: 80%;
-            transition-duration: 1s;
-            text-align: center;
-        }
-        /* subtext */
-        .header h3 {
-            font-family: 'Poppins', sans-serif;
-            color: gray;
-            font-size: 70%;
-            transition-duration: 1s;
-            text-align: center;
-
-        }
+        height: 50vh;
+        padding: 12px;
     }
+    nav {
+        /* background-color: antiquewhite;  */
+
+        width: 100%;
+        transition-duration: 1s;
+
+
+    }
+
+    /* nav links */
+    nav a {
+
+        display: inline-block;
+        width: 90%;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+
+
+    }
+    /* main text in header */
+    .header-main-text {
+        width: 100%;
+    }
+
+    /* main text */
+    .header h1 {
+        font-family: 'Adamina', serif;
+        font-weight: 200;
+        color: #FFAC12;
+        font-size: 50%;
+        transition-duration: 1s;
+        text-align: center;
+    }
+    /* subtext */
+    .header h3 {
+        font-family: 'Poppins', sans-serif;
+        color: gray;
+        font-size: 70%;
+        transition-duration: 1s;
+        text-align: center;
+
+    }
+}
