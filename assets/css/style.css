@@ -196,35 +196,17 @@ nav .selected:hover {
 
 .cards {
     bottom: 0;
-    background-color: rgba(240, 248, 255, 0.19);
-    /* background-image: url("../images/moving.png"); */
-    /* background-size: contain; */
-    /* background-repeat: no-repeat; */
     position: relative;
     background-color: aliceblue;
     border-radius: 2rem;
+    width: 500px;
+    height: 600px;
+    background-size: cover;
 
 }
-/* used important to overide the placeholder background images with the correct images */
-/* #movers {
-    background-image: url("../images/ehem.png") !important;
+.cards img{
+    width: 100%;
 }
-#maridadi {
-    background-image: url("../images/wewe.png") !important;
-}
-#ufalme {
-    background-image: url("../images/movers.png") !important;
-}
-#chapchap {
-    background-image: url("../images/chapchap.png") !important;
-}
-
-#upesi {
-    background-image: url("../images/songa.png") !important;
-}
-#mashinani {
-    background-image: url("../images/mashinani.png") !important;
-} */
 
 .status {
     width: 100%;
@@ -271,7 +253,7 @@ footer {
     background-color: rgb(0, 0, 0);
     color: white;
     width: 100%;
-    height: 65vh;
+    height: 80vh;
     padding-top: 6.5rem;
     padding-left: 6.5rem;
     padding-right: 6.5rem;
@@ -356,7 +338,7 @@ footer li a:hover {
 
 }
 /* media query of small screen */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
 
     .header {
         background-image: none;
@@ -395,7 +377,7 @@ footer li a:hover {
     }
     .first-section {
         width: 100%;
-        height: 55vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -405,8 +387,8 @@ footer li a:hover {
 
     }
     .first-section img {
-        width: 100vw;
-        height: 30vh;
+        width: 90vw;
+        height: 40vh;
         margin: 0;
     }
     .first-section-text {
@@ -441,13 +423,15 @@ footer li a:hover {
     }
     /*secontd section*/
     .second-section{
-       height: 60vh;
+       height: 66vh;
        margin: 0;
-       padding: 2px;
+       padding: 2px 6px;
         
     }
     .second-section h3{
-        font-size: 22px;
+        font-size: 24px;
+        margin-left: 12px;
+        
     }
     .parent-cards{
         display: flex;
@@ -455,9 +439,9 @@ footer li a:hover {
         overflow: hidden;
         overflow-x: auto;
         margin-top: 6px;
-        height: 60vh;
+        height: 64vh;
         width: 100%;
-        background-color: #FFAC12;
+        /* background-color: #FFAC12; */
     }
     /*support scroll bar in fire fox*/
     .parent-cards{
@@ -471,11 +455,14 @@ footer li a:hover {
     .cards{
         background-color: #ffffff;
         width: 90vw;
-        height: 50vh;
+        height: 55vh;
         border-radius: 20px;
         margin-top: 18px;
         margin-left: 10px;
         margin-right: 12px;
+    }
+    .cards h2{
+        bottom: 23% !important;
     }
     .cards img{
         margin: 0 auto;
@@ -486,7 +473,9 @@ footer li a:hover {
     .cards h2{
         font-size: 20px;
     }
-
+    .status{
+        
+    }
 
 
 
@@ -498,7 +487,18 @@ footer li a:hover {
         height: 60vh;
         margin:0;
         padding: 6px;
+        flex-direction: row;
+        overflow: hidden;
+        overflow-y: auto;
     }
+    /*support scroll bar in fire fox*/
+    footer{
+        -ms-overflow-style: none;
+        scroll-behavior: none;
+    }
+    /*support scroll bar in firefox*/
+    footer::-webkit-scrollbar{
+        display: none;}
     footer h2{
         text-align: center;
     }
