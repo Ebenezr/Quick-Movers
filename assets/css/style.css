@@ -197,16 +197,16 @@ nav .selected:hover {
 .cards {
     bottom: 0;
     background-color: rgba(240, 248, 255, 0.19);
-    background-image: url("../images/moving.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* background-image: url("../images/moving.png"); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
     position: relative;
     background-color: aliceblue;
     border-radius: 2rem;
 
 }
 /* used important to overide the placeholder background images with the correct images */
-#movers {
+/* #movers {
     background-image: url("../images/ehem.png") !important;
 }
 #maridadi {
@@ -224,7 +224,7 @@ nav .selected:hover {
 }
 #mashinani {
     background-image: url("../images/mashinani.png") !important;
-}
+} */
 
 .status {
     width: 100%;
@@ -439,6 +439,59 @@ footer li a:hover {
         flex-direction: column;
 
     }
+    /*secontd section*/
+    .second-section{
+       height: 60vh;
+       margin: 0;
+       padding: 2px;
+        
+    }
+    .second-section h3{
+        font-size: 22px;
+    }
+    .parent-cards{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        overflow-x: auto;
+        margin-top: 6px;
+        height: 60vh;
+        width: 100%;
+        background-color: #FFAC12;
+    }
+    /*support scroll bar in fire fox*/
+    .parent-cards{
+        -ms-overflow-style: none;
+        scroll-behavior: none;
+    }
+    /*support scroll bar in firefox*/
+    .parent-cards::-webkit-scrollbar{
+        display: none;
+    }
+    .cards{
+        background-color: #ffffff;
+        width: 90vw;
+        height: 50vh;
+        border-radius: 20px;
+        margin-top: 18px;
+        margin-left: 10px;
+        margin-right: 12px;
+    }
+    .cards img{
+        margin: 0 auto;
+        top:0;
+        height: 35vh;
+        width: 90vw;
+    }
+    .cards h2{
+        font-size: 20px;
+    }
+
+
+
+
+
+    /*footer stylying*/
     footer {
         margin: 0;
         width: 100%;
