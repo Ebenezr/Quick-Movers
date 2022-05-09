@@ -13,7 +13,7 @@ This is an implementation of Quick movers website designed with html and vanilla
 ### property page
 ![image](/assets/images/movers-page.png)
 ### mobile homepage
-![image](/assets/images/Mobile1.png)
+![image](/assets/images/mobile1.png)
 ### mobile property page
 ![image](/assets/images/Mobile2.png)
 ## Table of content
