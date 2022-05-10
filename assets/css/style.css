@@ -439,6 +439,7 @@ footer li a:hover {
         flex-direction: row;
         overflow: hidden;
         overflow-x: auto;
+        align-items: baseline;
         margin-top: 6px;
         height: 64vh;
         width: 100%;
@@ -461,6 +462,7 @@ footer li a:hover {
         margin-top: 18px;
         margin-left: 10px;
         margin-right: 12px;
+        display: block;
     }
     .cards h2{
         bottom: 23% !important;
@@ -470,17 +472,15 @@ footer li a:hover {
         top:0;
         height: 35vh;
         width: 90vw;
+      
+          
     }
+    .cards::-webkit-scrollbar {
+            display: none;} 
     .cards h2{
         font-size: 20px;
     }
-    .status{
-        
-    }
-
-
-
-
+    
     /*footer stylying*/
     footer {
         margin: 0;
@@ -556,5 +556,14 @@ footer li a:hover {
     }
     .parent-column div{
         text-align: left;
-    }
+    } 
+    .second-section hr{
+        width: 50%;
+        height:4px;
+        background-image:linear-gradient(to right, #FFAC12, #000);
+        border-radius: 18px;
+        border: none;
+        margin-left: 12px;
+
+       }
 }
